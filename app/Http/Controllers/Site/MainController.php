@@ -28,6 +28,6 @@ class MainController extends Controller
     {
         return redirect()->route( "login");
 
-        //return view('site.main.index.main.index');
+        //return view('site.main.index');
     }
 }

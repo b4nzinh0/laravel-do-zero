@@ -29,7 +29,7 @@ use \App\Http\Controllers\Panel\MainController as PanelMain;
 Auth::routes();
 
 #Rota do painel
-Route::middleware("panel")->name("panel.")->group(function () {
+Route::middleware("auth")->name("panel.")->group(function () {
 
     #Rota do controller Main ou (Principal)
     Route::name("main")->group(function () {
