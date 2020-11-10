@@ -27,13 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33ba444-c043-4686-860b-d3a814a52d1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Auth-Panel/dist/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/template/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/template/javascript.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/template/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/template/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/template/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/template/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/template/javascript.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/template/javascript.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +255,7 @@
       <workItem from="1605003745912" duration="420000" />
       <workItem from="1605004175175" duration="750000" />
       <workItem from="1605004935758" duration="180000" />
-      <workItem from="1605005129180" duration="18042000" />
+      <workItem from="1605005129180" duration="23901000" />
     </task>
     <servers />
   </component>
@@ -337,10 +334,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="514" y="283" key="NewPhpFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1605023816092" />
-    <state x="181" y="9" key="SettingsEditor" timestamp="1605023898339">
+    <state x="181" y="9" key="SettingsEditor" timestamp="1605032975834">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="181" y="9" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1605023898339" />
+    <state x="181" y="9" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1605032975834" />
     <state x="0" y="0" width="583" height="728" key="find.popup" timestamp="1605015279706">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
