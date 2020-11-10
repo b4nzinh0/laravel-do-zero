@@ -25,6 +25,7 @@
 
                     @error("email")
                       <span class="text-danger">{{ $message }}</span>
+                    <hr>
                     @enderror
 
                     <div class="input-group mb-3">
@@ -41,7 +42,8 @@
 
                         @error("password")
                         <span class="text-danger">{{ $message }}</span>
-                        @enderror
+                    <hr>
+                         @enderror
 
                     <div class="row">
                         <div class="col-8">

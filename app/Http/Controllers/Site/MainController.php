@@ -26,8 +26,8 @@ class MainController extends Controller
      */
     public function index()
     {
-        return redirect()->route( "login");
+        //return redirect()->route( "login");
 
-        //return view('site.main.index');
+        return view('auth.login');
     }
 }
