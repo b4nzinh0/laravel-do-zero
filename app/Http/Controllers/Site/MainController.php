@@ -18,7 +18,6 @@ class MainController extends Controller
     {
 
     }
-    iyoug
 
     /**
      * Show the application dashboard.
@@ -27,7 +26,7 @@ class MainController extends Controller
      */
     public function index()
     {
-        return_redirect()-> route("login");
+        return redirect()->route( "login");
 
         //return view('site.main.index.main.index');
     }

@@ -15,7 +15,7 @@ use \App\Http\Controllers\Panel\MainController as PanelMain;
 */
 
 # Rotas do site
-Route::middleware("main")->name("site")->group(function () {
+ Route::name("site.")->group(function () {
 
     #Rotas do Controller Main ou (Principal)
     Route::name("main")->group(function () {
@@ -29,7 +29,7 @@ Route::middleware("main")->name("site")->group(function () {
 Auth::routes();
 
 #Rota do painel
-Route::name("panel")->group(function () {
+Route::middleware("panel")->name("panel.")->group(function () {
 
     #Rota do controller Main ou (Principal)
     Route::name("main")->group(function () {
@@ -39,8 +39,9 @@ Route::name("panel")->group(function () {
     });
 });
 
+
 #Rota do system
-Route::name("system")->group(function () {
+Route::name("system.")->group(function () {
 
     #Rota do controller Main ou (Principal)
     Route::name("main")->group(function () {
